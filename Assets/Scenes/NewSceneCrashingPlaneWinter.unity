@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 630339741}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -356,7 +356,7 @@ Animator:
   m_GameObject: {fileID: 630339733}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 247cc01aeae21e44785e2a98ff783191, type: 2}
+  m_Controller: {fileID: 9100000, guid: b3762f54dd24e01478efb760b4460595, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -674,6 +674,7 @@ MonoBehaviour:
   _spawnAtBegining: 1
   _useRandomPrefab: 1
   _prefabs:
+  - {fileID: 2441028125726398853, guid: b85cbff33ae40564f8aa2b055763579d, type: 3}
   - {fileID: 5159174393068658102, guid: 5dfcad243e67aa744afd0aebf58b89b1, type: 3}
   - {fileID: 2441028125726398853, guid: 63d4afc86aea87c4482eccee5f9166e4, type: 3}
 --- !u!4 &1846705571
@@ -767,7 +768,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2929662685348493158, guid: 2a3e6011a753b3a4eb3d8cc1fd5a0d74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.36
+      value: 14.8
       objectReference: {fileID: 0}
     - target: {fileID: 2929662685348493158, guid: 2a3e6011a753b3a4eb3d8cc1fd5a0d74, type: 3}
       propertyPath: m_LocalPosition.y
@@ -808,6 +809,10 @@ PrefabInstance:
     - target: {fileID: 5203156577754424752, guid: 2a3e6011a753b3a4eb3d8cc1fd5a0d74, type: 3}
       propertyPath: m_Name
       value: LandscapeResetPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 5203156577754424752, guid: 2a3e6011a753b3a4eb3d8cc1fd5a0d74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
