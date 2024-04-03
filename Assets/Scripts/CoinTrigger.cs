@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CoinTrigger : MonoBehaviour
 {
-    private int moneda;
+    
+    private static int moneda;
     // Start is called before the first frame update
 
     private void OnTriggerEnter2D(Collider2D collision)

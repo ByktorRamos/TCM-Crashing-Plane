@@ -675,8 +675,6 @@ MonoBehaviour:
   _useRandomPrefab: 1
   _prefabs:
   - {fileID: 2441028125726398853, guid: b85cbff33ae40564f8aa2b055763579d, type: 3}
-  - {fileID: 5159174393068658102, guid: 5dfcad243e67aa744afd0aebf58b89b1, type: 3}
-  - {fileID: 2441028125726398853, guid: 63d4afc86aea87c4482eccee5f9166e4, type: 3}
 --- !u!4 &1846705571
 Transform:
   m_ObjectHideFlags: 0
